@@ -390,6 +390,7 @@
         padding: 0 15px;
         padding-bottom: 20px;
         transform: none !important;
+        height: auto;
     }
     .item-accordion__text {
         max-height: initial;
