@@ -679,6 +679,10 @@
     .modal-wrap {
         padding: 30px 25px;
     }
+    .fancybox-slide:not(.fancybox-slide--image) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* Custom, iPhone Retina */
