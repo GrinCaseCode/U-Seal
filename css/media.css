@@ -380,6 +380,7 @@
     .item-accordion__content {
         width: 100%;
         display: none;
+        overflow: initial;
         transition: initial;
     }
     .item-accordion__inner, .item-accordion.active .item-accordion__content {
