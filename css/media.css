@@ -534,6 +534,12 @@
     .page-contacts .list-socials {
         padding-top: 0;
     }
+    .footer {
+        font-size: 14px;
+    }
+    .footer__nav_columns {
+        columns: initial;
+    }
 }
 
 /* Small Devices, Tablets */
