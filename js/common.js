@@ -87,6 +87,7 @@ $(document).ready(function() {
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox({
 		autoFocus: false,
+		backFocus: false,
 	});
 
 
