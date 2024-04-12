@@ -849,7 +849,7 @@
     .image-billbord {
         display: block;
         margin: 0;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .image-billbord img {
         margin: 0 auto;
@@ -1116,10 +1116,20 @@
         margin-bottom: 28px;
     }
     .page-categories {
-        padding-bottom: 85px;
+        padding-bottom: 60px;
     }
     .page-delivery {
         padding-bottom: 20px;
+    }
+    .page-news,
+    .page-contacts {
+        background-image: url(../img/bg_page_about.svg);
+        background-size: 400px auto;
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    .time-article {
+        margin-bottom: 18px;
     }
 }
 
@@ -1294,13 +1304,24 @@
     .item-delivery__head {
         margin-bottom: 20px;
     }
-    .page-delivery, .page-categories, .page-about {
+    .page-news,
+    .page-contacts,
+    .page-delivery, 
+    .page-categories, 
+    .page-about {
         background-size: 200px auto;
     }
     .item-delivery {
         padding: 30px 23px;
         padding-bottom: 25px;
         font-size: 14px;
+    }
+    .head-article h1 {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    .head-article {
+        margin-bottom: 25px;
     }
 }
 
